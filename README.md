@@ -53,6 +53,9 @@ The model performance could basically first increase by increasing the timeout o
 
 ![RunDetailsWidget](AutoML_RunDetails.PNG)
 
+![RunDetailsWidget](AutoML_BestModel.PNG)
+
+
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ## Hyperparameter Tuning
