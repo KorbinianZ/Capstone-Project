@@ -155,7 +155,7 @@ except urllib.error.HTTPError as error:
 
 ## Screen Recording
 Here is the link to the screenrecording: 
-[Capstone project]{https://youtu.be/LHFRR1teG8M}
+[Capstone project](https://youtu.be/LHFRR1teG8M)
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
