@@ -81,6 +81,7 @@ The model performance increases with the depth of the decission tree. So when I 
 Best model with it´s hyperparameters:
 ![RunDetailsWidget](HyperDrive_BestModel_Id.PNG)
 
+To improve the model for example the maximum depth of the decession tree could be increased. In other words the hyperparameter space could be extendend. Additional the maximum training time could also be extendend and therefore the hyerparameter search space will be increased.
 
 ## Model Deployment
 For the deployment the model of the hyperdrive run was used.
@@ -144,7 +145,6 @@ except urllib.error.HTTPError as error:
     print(error.read().decode("utf8", 'ignore'))
 ``` 
 
-To improve the model for example the maximum depth of the decession tree could be increased. In other words the hyperparameter space could be extendend. Additional the maximum training time could also be extendend and therefore the hyerparameter search space will be increased.
 
 ## Screen Recording
 Here is the link to the screenrecording: 
