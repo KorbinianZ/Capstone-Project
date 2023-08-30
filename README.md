@@ -154,5 +154,5 @@ Here is the link to the screenrecording:
 
 ![RunDetailsWidget](HyperDrive_Service_delet2.PNG)
 
-##Proof of cluster clean up
+## Proof of cluster clean up
 I used a cluster of my company ZF, not the azure platform provided by Udacity. In my company only azure admins can delete compute clusters. I will write an email to them to cleanup the clusters after I have passed this course. So you can be shoure that the compute cluster will be deleted. Thanks :)
