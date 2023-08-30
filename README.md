@@ -53,6 +53,7 @@ The model performance could basically first increase by increasing the timeout o
 
 ![RunDetailsWidget](AutoML_RunDetails.PNG)
 
+Best model with it´s hyperparameters:
 ![RunDetailsWidget](AutoML_BestModel.PNG)
 
 
@@ -78,6 +79,7 @@ The model performance increases with the depth of the decission tree. So when I 
 
 ![RunDetailsWidget](HyperDrive_RunDetailsWidget.PNG)
 
+Best model with it´s hyperparameters:
 ![RunDetailsWidget](HyperDrive_BestModel_Id.PNG)
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
