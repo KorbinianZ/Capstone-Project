@@ -154,10 +154,8 @@ except urllib.error.HTTPError as error:
 ``` 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-- A working model
-- Demo of the deployed  model
-- Demo of a sample request sent to the endpoint and its response
+Here is the link to the screenrecording: 
+[Capstone project]{https://youtu.be/LHFRR1teG8M}
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
