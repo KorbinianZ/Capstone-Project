@@ -51,6 +51,7 @@ From the autoML run the best performing model was a decission tree algorithm of 
 ```
 The model performance could basically first increase by increasing the timeout of the run. Initially this time was to short so a proper hyperparameter search could not take place. After increasing the time the early stopping policy could intervent.
 
+![RunDetailsWidget](AutoML_RunDetails.PNG)
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
