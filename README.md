@@ -57,8 +57,6 @@ Best model with it´s hyperparameters:
 ![RunDetailsWidget](AutoML_BestModel.PNG)
 
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
-
 ## Hyperparameter Tuning
 Also for the hyperparameter task a decission tree model was choosen. The parameters which have to be tuned are the maximum depth of the tree and the minimum samples per leaf. Further information about decission tree models could be found within the [scikit learning plattform](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html#sklearn.tree.DecisionTreeRegressor)  
 For the hpyerparameter search the RandomParameterSampling class was used and the maximum depth should be within a range of 1 to 20 and for the minimum samples per leaf within a range of 1 to 4. See also the short code example:
@@ -81,7 +79,7 @@ The model performance increases with the depth of the decission tree. So when I 
 
 Best model with it´s hyperparameters:
 ![RunDetailsWidget](HyperDrive_BestModel_Id.PNG)
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+
 
 ## Model Deployment
 For the deployment the model of the hyperdrive run was used.
@@ -144,6 +142,8 @@ except urllib.error.HTTPError as error:
     print(error.info())
     print(error.read().decode("utf8", 'ignore'))
 ``` 
+
+To improve the model for example the maximum depth of the decession tree could be increased. In other words the hyperparameter space could be extendend. Additional the maximum training time could also be extendend and therefore the hyerparameter search space will be increased.
 
 ## Screen Recording
 Here is the link to the screenrecording: 
