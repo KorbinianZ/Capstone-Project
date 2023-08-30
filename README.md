@@ -144,5 +144,7 @@ except urllib.error.HTTPError as error:
 Here is the link to the screenrecording: 
 [Capstone project](https://youtu.be/LHFRR1teG8M)
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+## Webservices deleted
+![RunDetailsWidget](HyperDrive_Service_delet1.PNG)
+
+![RunDetailsWidget](HyperDrive_Service_delet2.PNG)
