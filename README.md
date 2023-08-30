@@ -4,28 +4,10 @@
 
 Introduction: In this Azure ML project, we aim to compare the performance of two different approaches for training a model to predict CO2 emissions of different car typs. The first approach involves using HyperDrive, which is a hyperparameter tuning technique, and the second approach involves using AutoML, which automates the process of model selection and hyperparameter tuning.
 
-Methodology: To get started, we will upload the CO2 Emissions dataset into our Azure ML Studio workspace. We will then split the dataset into training and testing sets to evaluate the performance of our models.
-
-For the HyperDrive run, we will define a search space for at least two hyperparameters to be tuned. We will choose a sampling method, such as grid sampling or random sampling, and specify an early termination policy to stop poorly performing runs.
-
-For the AutoML run, we will configure the experiment settings to automatically explore different models and hyperparameters. This will allow us to compare the performance of various models and select the best one.
-
-HyperDrive Results: We will visualize the progress of the hyperparameter tuning runs using the RunDetails widget. Additionally, we will document the effects of the different hyperparameters on the primary metric of our model. We will also display the properties of the best trained model, including the type of model and the hyperparameters that were optimized.
-
-AutoML Results: Similarly, we will visualize the progress of the AutoML experiment and document the performance of the different models on the primary metric. We will display the properties of the best trained model, including the type of model and the hyperparameters that were optimized.
-
-Deployment: Once we have identified the best performing model from both the HyperDrive and AutoML runs, we will register and deploy the models as endpoints. We will include a screenshot showing the model endpoint as active.
-
-Model Evaluation: To evaluate the performance of the deployed models, we will send HTTP inference requests to the model's URI. This will allow us to test the models with sample inputs and observe the responses.
-
-Conclusion: By comparing the model performance of the HyperDrive run and the AutoML run, we can determine which approach yields the best results for predicting CO2 emissions. We will also provide suggestions on how to improve the project in the future.
-
-For more details, please refer to the complete project documentation and code in the README file, which includes an overview of the project, dataset, data upload method, AutoML experiment settings, hyperparameter search parameters, best models, deployed model instructions, and suggestions for future improvements.
-
-Please let me know i
+Methodology: To get started, we will upload the CO2 Emissions dataset into our Azure ML Studio workspace. We will then split the dataset into training and testing sets to evaluate the performance of the trained models.
 
 ## Project Set Up and Installation
-*OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
+All the enviroment dependecies could be found under the conda_enviroment.yml file
 
 ## Dataset
 For this project, we will be using the CO2 Emissions dataset from Kaggle, which can be found at the following link: [Kaggle CO2 Emissions Dataset](https://www.kaggle.com/code/bhuviranga/linear-regression-co2-emissions/input).
