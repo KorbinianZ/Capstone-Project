@@ -56,6 +56,7 @@ The model performance could basically first increase by increasing the timeout o
 Best model with it´s hyperparameters:
 ![RunDetailsWidget](AutoML_BestModel.PNG)
 
+This code which could  register the best model of the autoML run could be seen in the [jupyter notebook](automl.ipynb). However from the administration site of our company it is currently not allowed (or at least for me) the register such a model. See therefore the screenshot: ![RunDetailsWidget](AutoML_BestModel_register.PNG)
 
 ## Hyperparameter Tuning
 Also for the hyperparameter task a decission tree model was choosen. The parameters which have to be tuned are the maximum depth of the tree and the minimum samples per leaf. Further information about decission tree models could be found within the [scikit learning plattform](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html#sklearn.tree.DecisionTreeRegressor)  
