@@ -64,6 +64,7 @@ param_sampling = RandomParameterSampling({
     '--min_samples_leaf': choice(1, 2, 4)
 })
 ```
+![RunDetailsWidget](HyperDrive_RandomSampling.PNG)
 
 ### Results
 The R2 score of the best hpyerparmeter tuned model was 0.9618546. With the parameters: 
@@ -72,6 +73,9 @@ hyperparameters : {"--max_depth": 20, "--min_samples_leaf": 1}
 ``` 
 The model performance increases with the depth of the decission tree. So when I started the training process I did not used such a maximum depth of the decission tree but increased it after several experiements.
 
+![RunDetailsWidget](HyperDrive_RunDetailsWidget.PNG)
+
+![RunDetailsWidget](HyperDrive_BestModel_Id.PNG)
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ## Model Deployment
